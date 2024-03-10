@@ -1,4 +1,4 @@
-async function postProject(projectDatadata) {
+async function postProject(projectData) {
     const url = `${import.meta.env.VITE_API_URL}/projects/`;
     const token = localStorage.getItem("token");
     const response = await fetch(url, {
