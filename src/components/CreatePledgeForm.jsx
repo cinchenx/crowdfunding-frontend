@@ -41,7 +41,7 @@ function CreatePledgeForm() {
     };
     
             return (
-                <form onSubmit={handleSubmit}>
+                <form className="form" onSubmit={handleSubmit}>
                     <div>
                     <label htmlFor="amount"> Insert pledge amount: </label>
                     <input 

@@ -43,7 +43,7 @@ function CreateProjectForm() {
                 });
             }}
             return (
-                <form>
+                <form className="form">
                     <div>
                     <label htmlFor="title"> Project Title: </label>
                     <input 
