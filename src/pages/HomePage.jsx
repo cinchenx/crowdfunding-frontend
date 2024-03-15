@@ -7,6 +7,11 @@ import "../HomePage.css";
 
 function HomePage() {
     const { projects } = useProjects();
+
+    if (isLoading) return <h1>loading...</h1>;
+
+    if (error) return <h1> {error.message} </h1>;
+    
     return (
         <div id="project-list">
             
